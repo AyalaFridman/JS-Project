@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/c.css">
+    <script src="../../styles/j.js"></script>
+    <title>payment</title>
+</head>
+<body>
+    <header class="fixed-top">
+        <a href="../home/home.html"><img src="../../pic/וגו-שושי.png" id="logo"></a>
+        <nav >
+      <ul id="all_nav" class="nav nav-tabs nav nav-pills nav-fill">  
+          <!-- icon עגלה -->
+          <li class="nav-item" id="cart">
+              <a class="nav-link" href="../cart/cart.html"> <i class="fa-solid fa-cart-shopping" id="carticon"></i></a>
+          </li>
+          <!-- icon heart -->
+          <li class="nav-item" id="heart">
+              <a class="nav-link" href="#"> <i class="far fa-heart" id="hearticon"></i></a>
+          </li>
+          <!-- התחברות -->
+          <li class="contection nav nav-tabs nav-item" >
+                <a href="#" id="sub_contection" class="nav-link"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <!-- טלפון -->
+          <li id="phon" class="nav-item">        
+              <div class="button"><span><i class="fa-sharp fa-solid fa-phone"></i></span><span id="myNum">  053-311333</span></div>
+          </li>
+          
+          <!-- צור קשר -->
+          <li id="flexsContact" class="nav nav-tabs nav-item">
+              <div><a href="../contact/contact.html"  class="nav-link">צור קשר</a></div>
+          </li>
+          <!-- כל המתנות -->
+          <li id="all_grid" class="nav nav-tabs nav-item">
+              
+              <div class="gift dropdown" >
+              <div><a class="nav-link"  data-toggle="dropdown" href="#"> כל המתנות<span><i aria-hidden="true" class="fas fa-chevron-down"></i></span></a></div>
+              <div class="content dropdown-menu">
+                  <div id="li1">על השולחן במשרד</div>
+                  <div id="li3">מחברות</div>
+                  <div id="li4">תחילת שנת הלימודים</div>
+                  <div id="li5">כוסות</div>
+                  <div id="li6">מטענים</div>
+                  <div id="li8">עטים</div>
+                  <div id="li9">צידניות</div>
+                  <div id="li10">תיקים</div>
+                  <div id="li11">מוצרי קיץ</div>
+              </div>
+              </div>
+          </li>
+      </ul>
+          
+  
+      
+  </nav>
+  </header>
+<main>  <div id="payment_page">
+
+    <form id="payment">
+      <div class="step" id="step_1">
+        <div class="mb-3">
+          <div><i class="fas fa-arrow-circle-right"></i> </div>
+          <h2 id="sen">YOUR DETAILES <i class="far fa-address-book"></i> <br><span id="p1"></span></h2>
+          <label class="form-label">YOUR EMAIL </label><br>
+          <input class="inPay" type="email" id="payEmail" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label"> YOUR NAME</label><br>
+          <input class="inPay" type="text" id="payName" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label"> YOUR ADDRESS</label><br>
+          <input class="inPay" type="text" id="payAddress" required>
+        </div>
+        <a href="#step_2"> <button type="button" id="next" class="btn btn-light btn-lg">NEXT</button></a>
+      </div>
+      <div class="step" id="step_2">
+        <div class="mb-3">
+          <h2 id="sen">CERDDIT ACCOUNT <i class="fas fa-money-check-alt"></i> <br><span id="p2"></span></h2>
+
+          <label class="form-label">HOLDER NAME</label><br>
+          <input class="inPay" type="text" id="payNameHolder" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">CREDIT CARD NUMBER</label><br>
+          <input class="inPay" type="text" id="payNumCard" placeholder="****************" minlength="12" maxlength="16"
+            required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">CVC*</label><br>
+          <input class="inPay" type="text" id="3Num" placeholder="***" minlength="3" maxlength="3" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">EXPIRY DATE </label><br>
+          <input class="inPay" type="date" id="payDate" required>
+        </div>
+        <a href="#payment"><button id="prev" type="button" class="btn btn-light btn-lg">PREVIOUS</button></a>
+        <a href="#"><button id="finish" type="submit" class="btn btn-light btn-lg">FOR SUMBIT</button></a>
+      </div>
+      <div class="step" id="step_3">
+        <h3 >הזמנתך תגיע תוך 5 ימי עסקים אל הכתובת</h3>
+        <h2 id="orderAddress"></h2>
+        <img src="../../assests/payment/delivery.gif" width="300px">
+        <a href="../../pages/home/index.html"><button id="close" type="button" class="btn btn-light btn-lg">CLOSE</button></a>
+        <p>תודה שקנית אצלינו <i class="far fa-grin-beam"></i></p>
+      </div>
+    </form></main>
+<footer>
+    <div><img src="./pic/לוגו-ללא-כיתוב.png"></div>
+    <ul  class="detials">
+       <li><span> gishank@012.net.il :מייל🖌️</span></li> 
+        <li><span>נייד: 053-3113331🖌️</span></li>
+        <li><span>טלפון: 03-6168956🖌️</span></li>
+    </ul>
+    <div class="kav"></div>
+    <div class="names"><span>CRAETE BY SARI AND AYALA</span></div>
+</footer>
+</body>
+</html>

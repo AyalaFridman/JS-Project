@@ -1,0 +1,59 @@
+#container-cart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#titele{
+    text-align: center;
+}
+#top-form{
+    color: black;
+}
+
+#shop_table{
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border:1px solid rgb(71, 70, 70);
+    margin: 0 0 24px -1px;
+    text-align: center;
+    border-radius: 5px;
+    direction: rtl;
+}
+
+td{
+    min-width: 8vw;
+    text-align: center;
+    vertical-align:middle;
+}
+
+#min_img{
+    max-height: 7vh;
+}
+
+#shop_table.table{
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.number{
+    padding: 0;
+    width: 30px;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+  #all_delete{
+    color: #ffffff;
+    font-size: larger;
+    background-color: #ca124e;
+    border-radius: 5px;
+    border-color: #ca124e;
+}

@@ -1,0 +1,40 @@
+#paper{
+    background-color: rgb(254, 254, 254);
+    box-shadow: black;
+    height: 90vh;
+    width:60vh;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 3px 3px 40px #525151;
+    margin:5vh;
+}
+main{
+    display: flex;  
+    justify-content: center;
+}
+.paper_detials{
+    padding: 10px;
+}
+#price{
+    font-size: 30px;
+}
+#text{
+    color: rgb(101, 112, 121);
+}
+#color{
+    font-size: larger;
+}
+#button_add_cart{
+    background-color: #f9d2df;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 3px 3px 40px #a07e89;
+}
+#button_add_cart:hover{
+    border-color: #CA124E;
+    box-shadow: 3px 3px 40px #d6a6b5;
+}

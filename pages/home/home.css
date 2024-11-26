@@ -1,0 +1,112 @@
+/* באנר!!!!!! */
+#page{
+    z-index: 0;
+    position: absolute;
+    top: 18vh;
+}
+.container-all-bunner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-content: center;
+    height: 70vh;
+    width: 100vw;
+    /* z-index: -1; */
+    background-image: url(../../pic/קונפטי.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%, 50%;
+    background-position-y: 50%, 50%;
+    background-size: 110%;
+
+}
+
+
+.right{
+    width: 50vw;
+}
+
+.left{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.elementor-headline-dynamic-text{
+    font-size: 5vw ;
+    font-family: "Noto Sans Hebrew", Noto Sans Hebrew;
+    font-weight: 900;
+    color:#FFD300 ;
+}
+
+.pink{
+    color: #CA124E;
+}
+
+.first-elementor-headline-dynamic-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.second-elementor-headline-dynamic-text{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.third-elementor-text{
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Noto Sans Hebrew", Noto Sans Hebrew;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.fourth-elementor-text{
+    display: flex;
+    justify-content: flex-end;
+}
+#animtion{
+    background-color: #CA124E;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 2vw;
+    animation-name: put;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+}
+@keyframes put {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
+  main{height: 200vh;}
+  .infor{
+    width: 100vw;
+    direction: rtl;
+  }
+  .accordion-button{
+   direction: rtl;
+    text-align: right;
+    font-size: 1.5rem;
+    border-left: none;
+    border-right: none;
+  }
+  .accordion-body{
+    direction: rtl;
+    text-align: right;
+    font-size: 1.2rem;
+  }
+  footer{
+    width: 100vw;
+  }
